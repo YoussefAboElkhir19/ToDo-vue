@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+.task-items .toggle i {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle-completed {
+    text-decoration: line-through;
+}
+
+.unstyled-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.unstyled-list-item {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
